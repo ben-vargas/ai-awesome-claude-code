@@ -1,26 +1,19 @@
 <!--lint disable remark-lint:awesome-badge-->
 
-#
+<!-- Responsive Logo with Theme Support -->
+<div align="center">
+  
+  <!-- Same ASCII art for all screen sizes, just scales down on mobile -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.svg">
+    <img src="./assets/logo-light.svg" alt="Awesome Claude Code" width="100%" style="max-width: 900px;">
+  </picture>
+  
+</div>
 
-<!-- [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) -->
+<!-- Generated with https://github.com/denvercoder1/readme-typing-svg -->
 
-<pre style="display: inline-block; text-align: left;">
- █████┐ ██┐    ██┐███████┐███████┐ ██████┐ ███┐   ███┐███████┐
-██┌──██┐██│    ██│██┌────┘██┌────┘██┌───██┐████┐ ████│██┌────┘
-███████│██│ █┐ ██│█████┐  ███████┐██│   ██│██┌████┌██│█████┐
-██┌──██│██│███┐██│██┌──┘  └────██│██│   ██│██│└██┌┘██│██┌──┘
-██│  ██│└███┌███┌┘███████┐███████│└██████┌┘██│ └─┘ ██│███████┐
-└─┘  └─┘ └──┘└──┘ └──────┘└──────┘ └─────┘ └─┘     └─┘└──────┘
-
- ────────────────────────────────────────────────────────────────────────────────────
-
- ██████┐██┐      █████┐ ██┐   ██┐██████┐ ███████┐     ██████┐ ██████┐ ██████┐ ███████┐
-██┌────┘██│     ██┌──██┐██│   ██│██┌──██┐██┌────┘    ██┌────┘██┌───██┐██┌──██┐██┌────┘
-██│     ██│     ███████│██│   ██│██│  ██│█████┐      ██│     ██│   ██│██│  ██│█████┐
-██│     ██│     ██┌──██│██│   ██│██│  ██│██┌──┘      ██│     ██│   ██│██│  ██│██┌──┘
-└██████┐███████┐██│  ██│└██████┌┘██████┌┘███████┐    └██████┐└██████┌┘██████┌┘███████┐
- └─────┘└──────┘└─┘  └─┘ └─────┘ └─────┘ └──────┘     └─────┘ └─────┘ └─────┘ └──────┘
-</pre>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=F7080D&random=true&width=435&lines=Fumigating...;Gallivanting...;Matriculating...;Toodleedoodling...;Goo-goo-g'joob-ing...;Excaliburating...;Canoodling...;Doing+the+humpty+dance...;Shiver-me-timbers-ing...;Becoming+sentient...;Opening+the+pod+bay+doors...;Rimraf-ing;23-skidoo-ing)](https://git.io/typing-svg)
 
 <!--lint enable remark-lint:awesome-badge-->
 
@@ -55,6 +48,12 @@ Claude Code is a cutting-edge CLI-based coding assistant and agent released by [
 ## This Week's Additions ✨
 
 > Resources added in the past 7 days
+
+[`Claude Code Templates`](https://github.com/davila7/claude-code-templates) &nbsp; by &nbsp; [Daniel Avila](https://github.com/davila7)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+Incredibly awesome collection of resources from every category in this list, presented with a neatly polished UI, great features like usage dashboard, analytics, and everything from slash commands to hooks to agents. An awesome companion for this awesome list.
+
+[`claudekit`](https://github.com/carlrannaberg/claudekit) &nbsp; by &nbsp; [Carl Rannaberg](https://github.com/carlrannaberg)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+Impressive CLI toolkit providing auto-save checkpointing, code quality hooks, specification generation and execution, and 20+ specialized subagents including oracle (gpt-5), code-reviewer (6-aspect deep analysis), ai-sdk-expert (Vercel AI SDK), typescript-expert and many more for Claude Code workflows.
 
 [`TypeScript Quality Hooks`](https://github.com/bartolli/claude-code-typescript-hooks) &nbsp; by &nbsp; [bartolli](https://github.com/bartolli)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 Quality check hook for Node.js TypeScript projects with TypeScript compilation. ESLint auto-fixing, and Prettier formatting. Uses SHA256 config caching for <5ms validation performance during real-time editing.
@@ -140,6 +139,9 @@ Interactive CLI tool for discovering and managing Claude Code configuration file
 [`cclogviewer`](https://github.com/Brads3290/cclogviewer) &nbsp; by &nbsp; [Brad S.](https://github.com/Brads3290)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 A humble but handy utility for viewing Claude Code `.jsonl` conversation files in a pretty HTML UI.
 
+[`Claude Code Templates`](https://github.com/davila7/claude-code-templates) &nbsp; by &nbsp; [Daniel Avila](https://github.com/davila7)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+Incredibly awesome collection of resources from every category in this list, presented with a neatly polished UI, great features like usage dashboard, analytics, and everything from slash commands to hooks to agents. An awesome companion for this awesome list.
+
 [`Claude Composer`](https://github.com/possibilities/claude-composer) &nbsp; by &nbsp; [Mike Bannister](https://github.com/possibilities)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Unlicense  
 A tool that adds small enhancements to Claude Code.
 
@@ -148,6 +150,9 @@ A webhook service that connects Claude Code to GitHub repositories, enabling AI-
 
 [`claude-code-tools`](https://github.com/pchalasani/claude-code-tools) &nbsp; by &nbsp; [Prasad Chalasani](https://github.com/pchalasani)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
 A collection of awesome tools, including tmux integrations, better session management, hooks that enhance security - a really well-done set of Claude Code enhancers, especially for tmux users.
+
+[`claudekit`](https://github.com/carlrannaberg/claudekit) &nbsp; by &nbsp; [Carl Rannaberg](https://github.com/carlrannaberg)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;MIT  
+Impressive CLI toolkit providing auto-save checkpointing, code quality hooks, specification generation and execution, and 20+ specialized subagents including oracle (gpt-5), code-reviewer (6-aspect deep analysis), ai-sdk-expert (Vercel AI SDK), typescript-expert and many more for Claude Code workflows.
 
 [`Container Use`](https://github.com/dagger/container-use) &nbsp; by &nbsp; [dagger](https://github.com/dagger)  &nbsp;&nbsp;⚖️&nbsp;&nbsp;Apache-2.0  
 Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.
